@@ -14,7 +14,8 @@ $ergebnis = mysqli_query($db, "SELECT *
 FROM huansohn");
 while($row = mysqli_fetch_object($ergebnis))
 {
-  echo $row->url;
+  echo $row->marke;
+  echo "<br />";
 }
 ?>
 <div class="navbar">
