@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="myscripts.js"></script> 
+<?php
+include("dbconnect.php");
+?>
+</head>
+
+<body>
+<div class="navbar">
+  <a href="./home.html">Home</a>
+  <a href="./konfig.html">Konfigurator</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="./wallpaper.html">Wallpaper</a>
+      <a href="./wallpaper.html">Downloads</a>
+      <a href="./wallpaper.html">Impressum</a>
+    </div>
+  </div>
+</div> 
+<div class="konfig1">
+<div class="konfig">
+<img id="image" src=./images/blau.jpg>
+<img id="image2" src=./images/car1.png>
+<img id="image3" src=./images/FelgenSmart1.png>  
+</div>
+<a><button id="clickme" onclick="changeImage();">Farbe!</button></a>
+<a><button id="clickme1" onclick="changeImage1();">Bauform!</button></a>
+<a><button id="clickme2" onclick="changeImage2();">Felgen!</button></a>
+<a><button id="clickme3" onclick="changeTextBox();">Motor!</button></a>
+</div>
+</body>
+</html>
