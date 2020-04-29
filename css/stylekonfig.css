@@ -1,0 +1,66 @@
+.konfig{
+    position:relative;
+    background-color: black;
+    margin: 15px auto 0px auto;
+    width: 700px;
+    height: 350px;
+    border: 5px solid white;
+}
+
+.konfig1{
+    margin: 15px auto;
+    width: 800px;
+    height: 450px;
+    border: 5px solid white;
+}
+
+.konfig a{
+      float: right;
+}
+
+
+#image2 {
+    width: 700px;
+    height: 350px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#image3 {
+    width: 700px;
+    height: 350px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#clickme
+{
+    margin-left: 44px;
+    width: 178px;
+    height: 50px;
+    position: absolute;
+}
+#clickme1
+{
+    position: fixed;
+    margin-left: 222px;
+    width: 178px;
+    height: 50px;
+
+}
+#clickme2
+{
+    position: fixed;
+    margin-left: 400px;
+    width: 178px;
+    height: 50px;
+
+}
+#clickme3
+{
+    position: fixed;
+    margin-left: 578px;
+    width: 178px;
+    height: 50px;
+
+}
