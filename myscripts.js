@@ -32,6 +32,7 @@ else{
 }
 return false;
 }
+
 function changeImage2()
 {
 var img = document.getElementById("image2");
