@@ -101,6 +101,13 @@ body {
     left: 0px;
     top: 0px;
 }
+#image3 {
+    width: 700px;
+    height: 350px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
 #clickme
 {
     margin-left: 44px;
