@@ -1,6 +1,8 @@
  /* Background for Site*/
 body {
   background-color: darkgray;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
  /* Navbar container */
