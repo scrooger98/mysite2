@@ -1,0 +1,10 @@
+.Textbox{
+    color: white;
+    overflow: hidden;
+    position:absolute;
+    background-color: dimgrey;
+    margin: 15px 5px 5px 1px;
+    height: auto;
+    width: 1000px;
+    padding-left: 10px;
+}
