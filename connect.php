@@ -9,7 +9,7 @@
 
 	
 <?php
-$connection = pg_connect ("host=ec2-79-125-26-232.eu-west-1.compute.amazonaws.com dbname=da5ra37bdrqbo5 user=cloqhtjxzygxxn password=ed2f479dd21985a83d9d022d7c986bc77bac577343e2eafd4ad51b8051f6c487");
+$connection = pg_connect ("host=ec2-54-217-236-206.eu-west-1.compute.amazonaws.com dbname=dc63fijc2cjsgd user=epwtkajqmcuxwh password=5a020fac88c1bdbc73c2bb2fe303ca4e4a61e378b3fa245220035023ea46d9a6");
 if($connection) {
 echo 'connected';
 }
