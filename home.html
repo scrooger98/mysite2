@@ -23,51 +23,30 @@
 <div class=Textbox>
     <?php
 $connection = pg_connect ("host=ec2-54-217-236-206.eu-west-1.compute.amazonaws.com dbname=dc63fijc2cjsgd user=epwtkajqmcuxwh password=5a020fac88c1bdbc73c2bb2fe303ca4e4a61e378b3fa245220035023ea46d9a6");
-if($connection) {
-echo ' <p>connected 123</p> SS';
+if($connection) 
+{
+echo ' <p>connected 123</p> ';
 }
-else {
+else 
+{
 echo 'there has been an error connecting';
 } 
 
+$sql = "SELECT * FROM huansohn";
+$result = pg_query($connection, $sql);
+while ($row = pg_fetch_array($result)) {
+
+
+    echo "Country code: " . $row[0] . "<br />";
+
+
+    echo "Country name: " . $row[1] . "<p />";
+
+
+}
 ?></div>
     
-<div>
-<?php
-require_once ('konfiguration.php');
-$db_link = mysqli_connect (
-                     ec2-54-217-236-206.eu-west-1.compute.amazonaws.com, 
-                     epwtkajqmcuxwh, 
-                     5a020fac88c1bdbc73c2bb2fe303ca4e4a61e378b3fa245220035023ea46d9a6
-, 
-                     dc63fijc2cjsgd
-                    );
- 
-$sql = "SELECT * FROM huasohn";
- 
-$db_erg = mysqli_query( $db_link, $sql );
-if ( ! $db_erg )
-{
-  die('Ungültige Abfrage: ' . mysqli_error());
-}
- 
-echo '<table border="1">';
-while ($zeile = mysqli_fetch_array( $db_erg, MYSQLI_ASSOC))
-{
-  echo "<tr>";
-  echo "<td>". $zeile['id'] . "</td>";
-  echo "<td>". $zeile['nachname'] . "</td>";
-  echo "<td>". $zeile['vorname'] . "</td>";
-  echo "<td>". $zeile['akuerzel'] . "</td>";
-  echo "<td>". $zeile['strasse'] . "</td>";
-  echo "<td>". $zeile['plz'] . "</td>";
-  echo "<td>". $zeile['telefon'] . "</td>";
-  echo "</tr>";
-}
-echo "</table>";
- 
-mysqli_free_result( $db_erg );
-?>    
+<div> 
 </div>
 </body>
 </html>
