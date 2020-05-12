@@ -37,10 +37,7 @@ $result = pg_query($connection, $sql);
 while ($row = pg_fetch_array($result)) {
 
 
-    echo "Country code: " . $row[0] . "<br />";
-
-
-    echo "Country name: " . $row[1] . "<p />";
+    echo "Model name: <p> " . $row[1] . "<p />";
 
 
 }
