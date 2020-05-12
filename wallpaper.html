@@ -37,7 +37,7 @@ $sql = "SELECT * FROM huansohn";
 $result = pg_query($connection, $sql);
 while ($row = pg_fetch_array($result)) {
 
-    echo " <img width= 200 height= 200 src= " . $row[1] . ">";
+echo " <img width= 200 height= 200 src= " . $row[1] . ">";
 
 }
 ?></div>    
