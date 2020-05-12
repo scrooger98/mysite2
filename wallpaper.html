@@ -40,6 +40,8 @@ while ($row = pg_fetch_array($result)) {
 echo " <img width= 200 height= 200 src= " . $row[1] . ">";
 
 }
+pg_free_result($result);
+pg_close($connection);
 ?></div>    
 </body>
 </html>
