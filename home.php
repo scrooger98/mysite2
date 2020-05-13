@@ -6,7 +6,7 @@
 </head>
 <body>
 <div class="navbar">
-  <a href="./home.html">Home</a>
+  <a href="./index.php">Home</a>
   <a href="./konfig.html">Konfigurator</a>
   <div class="dropdown">
     <button class="dropbtn">Infos
