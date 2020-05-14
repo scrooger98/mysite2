@@ -1,1 +1,1 @@
-<?php include_once("./wallpaper.html"); ?>
+<?php include_once("/wallpaper.html"); ?>
