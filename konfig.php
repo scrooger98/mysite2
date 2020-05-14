@@ -1,1 +1,1 @@
-<?php include_once("konfig.html"); ?>
+<?php include_once("./html/konfig.html"); ?>

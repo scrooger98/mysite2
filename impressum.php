@@ -1,1 +1,1 @@
-<?php include_once("impressum.html"); ?>
+<?php include_once("./html/impressum.html"); ?>

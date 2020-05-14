@@ -1,1 +1,1 @@
-<?php include_once("datenschutz.html"); ?>
+<?php include_once("./html/datenschutz.html"); ?>
